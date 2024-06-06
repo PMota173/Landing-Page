@@ -133,10 +133,12 @@ a {
     margin-bottom: 40px;
 }
 
-.images {
+.block {
     display: flex;
     justify-content: center;
     gap: 35px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .square {
@@ -145,6 +147,7 @@ a {
     border: 5px solid #3882F6;
     border-radius: 12px;
     display: flex;
+    flex-shrink: 0;
 }
 
 .text2 {
@@ -251,5 +254,3 @@ li {
     display: inline;
     font-size: 13px;
 }
-
-
